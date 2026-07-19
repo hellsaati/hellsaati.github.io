@@ -1,0 +1,57 @@
+.wrapper{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:24px;
+
+margin:5rem 0;
+
+}
+
+.wrapper>div{
+
+padding:28px;
+
+border-radius:22px;
+
+background:var(--ifm-card-background-color);
+
+text-align:center;
+
+border:1px solid rgba(127,127,127,.12);
+
+transition:.25s;
+
+}
+
+.wrapper>div:hover{
+
+transform:translateY(-5px);
+
+}
+
+.wrapper h2{
+
+margin:0;
+
+font-size:3rem;
+
+}
+
+.wrapper span{
+
+opacity:.65;
+
+}
+
+@media(max-width:800px){
+
+.wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+}

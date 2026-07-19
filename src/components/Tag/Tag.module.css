@@ -1,0 +1,19 @@
+.tag{
+
+display:inline-flex;
+
+align-items:center;
+
+padding:6px 12px;
+
+border-radius:999px;
+
+background:rgba(59,130,246,.12);
+
+color:var(--ifm-color-primary);
+
+font-size:.82rem;
+
+font-weight:700;
+
+}

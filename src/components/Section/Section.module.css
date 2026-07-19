@@ -1,0 +1,17 @@
+.section{
+
+margin:4rem 0;
+
+}
+
+.section h2{
+
+margin-bottom:1.5rem;
+
+font-size:2rem;
+
+padding-bottom:.6rem;
+
+border-bottom:2px solid rgba(127,127,127,.12);
+
+}
